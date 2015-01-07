@@ -1,0 +1,175 @@
+html {
+	background: url("../img/background2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+}
+
+
+body{
+    height:100%;
+	margin:0px;
+	padding:0px;
+	padding-top:100px;
+	font-family: sans-serif;
+	overflow:hidden;
+}
+
+
+
+
+#content{
+	background-color: rgba(255,255,255,0.7);
+	margin:auto;
+	width:80%;	
+	max-width: 600px;
+	min-width: 300px;
+	height: 440px;
+	border-radius: 30px;
+	z-index:9999;
+  
+}
+
+
+#logo{
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: -25px;
+	width: 80%;
+	max-width: 500px;
+	display: block;
+	z-index:9999;
+}
+
+h1{
+	font-size: 21px;
+	font-weight: normal;
+	color: #696868;
+	margin: auto;
+	width: 80%;
+	padding-left: 22%;
+	margin-top: -35px;
+}	
+
+h2{
+	margin:10px;
+	font-size:14px;
+	font-weight: normal;
+	color: #666;
+}
+
+#mc-embedded-subscribe-form{
+	margin: auto;
+	margin-top: 50px;
+	min-width: 320px;
+	width: 45%;
+	padding-left: 70px;
+}
+
+.email{
+	float:left;
+	margin: 0;
+	margin-right:5px;
+	padding:0;
+	padding-left: 10px;
+	
+	width:160px;
+	height:38px;
+	
+	border:1px solid #999;
+	background-color: rgba(255,255,255, 0.5);
+	color: #666;
+}
+
+.btn{
+	margin: 0;
+	padding:0;
+	width:80px;
+	height:40px;
+	background-color: #12B796;
+	border: none;
+	font-size: 16px;
+	color: #FFF;
+}
+
+
+
+.btn:hover{
+		background-color: #F1625E;
+
+}
+
+input:focus, input:active{
+		border: none;	
+
+}
+
+
+@media (max-width: 800px){
+	h1{ 
+		font-size: 18px; 
+		margin-top: -20px;
+	}
+}
+
+
+
+@media (max-width: 550px) {
+	#content{
+		height:300px;	
+	}
+	
+	
+	#logo{ 
+		width: 250px; 
+	}
+	
+	h1{ 
+		font-size: 12px; 
+		width: 250px;
+		padding-left: 70px;
+		margin-top: -20px;
+	}
+	
+	#mc-embedded-subscribe-form{
+		padding-left:0px;
+		margin-left:20px;
+	}
+
+
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#p5-container {
+		display: none;
+	}
+}
+
+
+
+
+.response{
+	display: block;
+	position: absolute;
+	margin-top: 60px;
+	font-size: 12px;
+	width: 300px;
+}
+
+
+ #mc_embed_signup div.mce_inline_error{
+	background-color: #910909;
+	position:absolute;
+	margin-top: 50px;
+}
+
+#p5-container{
+	position: absolute;
+	margin-top:-100px;
+	overflow: hidden;
+	z-index:-1;
+}
